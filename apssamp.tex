@@ -129,7 +129,7 @@ under the assumption that the observation can be explained solely with the shift
 
 Global fits performed by various different experiments in 2019 show 3-5$\sigma$ deviations in $Re(C_9)$ favouring a shift of the
 Wilson coefficient. The new physics component of $C_{10}$ for muons, which is also involved in the loop process of the penguin diagramm, was
-plotted against $C_19$ shown in figure \ref{fig:shift}.
+plotted against $C_9$ shown in figure \ref{fig:shift}.
 
 
 \begin{figure}[b]
@@ -152,10 +152,40 @@ it is indistinguishable from the FCNC. Regions of interest in the $\text{d}\Gamm
 into three parts, which the two different charmonium states $J/\psi(1S)$ and $J/\psi(2s)$ can occupy.
 The analysis is performed blind over an energy intervall of [0.1, 19] GeV$^2$ with mostly narrow and two wide bins with
 the two charmonium regions from [8.0, 11.0] and [12.5, 15.0] GeV$^2$ serving as control channels.
+With the additional data from 2016 it was possible to roughly double the number of candiates to 4585, while the
+remaining background is of combinatorial nature, as the yields exclude charmonium regions.
 
+The angles between the axis of the B meson products and their corresponding products are named $\Theta_l$
+for muons and $Theta_K$ for hadrons respectively. Antoher angle $\phi$ can be defined between the vertical axis and the plane in,
+which the muons decay.
+It is then possible to express the differential decay rate as
+the sum of angular coefficients, a function of the invariant mass of the muons, and angular functions, a function of the three angles.
+The angular functions are combinations of different $K^{*0}$ amplitudes, which are in turn dependent on Wilson coefficents
+and form factors.
 
+By combining $B^0$ and $\bar{B}^0$ decays and integrating over $q^2$, a cp averaged $S_i$ basis can be defined.
+The fit of differential decay rate then leads to eight cp averaged observables including the forward-backward asymmetry of
+the dimuon system and a fraction $F_L$ of the longitudinal polarisation of the $K^{*0}$.
+To reduce uncertainties of the form factors, a reparameterisation of the fit into the $P^{(')}_i$ basis is performed resulting
+in seven observables dependant on the $S_i$ parameters and $F_L$.
 
+The full fit model of the data and background tkes the mass shape into account to determine the fractions of the signal and
+the background contributions. Under the assumption that the mass and angular components are independent, the total
+signal and background can be split into functions of the two components. Here, the gaussian signal with radiative tail, as well
+as the exponential background arise from the signal fraction of the mass term.
+Between the years of Run 1 and 2016, only the angular component of the signal is shared.
 
+Since angular and invariant mass distributions heavily depend on the efficiency of the selection and reconstruction it is
+important to accurately model it. By parameterising the efficiency with an acceptance function it becomes clear that the
+efficiency is not constant across the angles and $q^2$. That is shown in figure \ref{fig:efficiency} for run 1 simulations with two different $q^2$ bins, namely the lowest and highest one.
+
+\begin{figure}[b]
+\includegraphics{efficiency}
+\caption{\label{fig:efficiency}}
+\end{figure}
+
+To model the efficiency, a 4-D parameterisation including $q^2$ and the three angles is required and is performed using
+legendre polynomials. The resulting coefficients are calculated via the method of moments using large stattistic simulation samples.
 
 \bibliography{apssamp}% Produces the bibliography via BibTeX.
 

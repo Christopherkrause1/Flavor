@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/W32TeX) (preloaded format=latex 2017.9.7)  7 JUL 2020 18:47
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/W32TeX) (preloaded format=latex 2017.9.7)  8 JUL 2020 18:27
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -261,12 +261,8 @@ File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/it' in size <9> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 109.
-
-
-LaTeX Warning: Reference `fig:shift' on page 1 undefined on input line 132.
-
 File: shift.eps Graphic file (type eps)
-<shift.eps>
+ <shift.eps>
 Overfull \hbox (47.09499pt too wide) in paragraph at lines 136--137
  [][] 
  []
@@ -274,7 +270,17 @@ Overfull \hbox (47.09499pt too wide) in paragraph at lines 136--137
 [1]
 
 LaTeX Warning: A float is stuck (cannot be placed); try class option [floatfix]
- on input line 155.
+ on input line 157.
+
+
+LaTeX Warning: Reference `fig:efficiency' on page 2 undefined on input line 180
+.
+
+File: efficiency.eps Graphic file (type eps)
+<efficiency.eps>
+Overfull \hbox (157.50749pt too wide) in paragraph at lines 183--184
+ [][] 
+ []
 
 No file apssamp.bbl.
 [2] (./apssamp.aux)
@@ -287,12 +293,12 @@ LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right .
 
  ) 
 Here is how much of TeX's memory you used:
- 3650 strings out of 492991
- 44573 string characters out of 6136361
- 120589 words of memory out of 5000000
- 7173 multiletter control sequences out of 15000+600000
+ 3655 strings out of 492991
+ 44654 string characters out of 6136361
+ 127589 words of memory out of 5000000
+ 7177 multiletter control sequences out of 15000+600000
  16884 words of font info for 63 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  34i,8n,28p,244b,270s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on apssamp.dvi (2 pages, 7652 bytes).
+Output written on apssamp.dvi (2 pages, 11484 bytes).
